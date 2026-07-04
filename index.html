@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mech Tech Engineering — Structural Fabrication &amp; Gas Utility Systems</title>
+<meta name="description" content="Mech Tech Engineering (MTE), Dadra — structural steel fabrication, mechanical installation, machining, blasting &amp; painting, and gas piping &amp; utility systems since 2021.">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="#top" class="brand">
+      <img src="assets/img/logo.png" alt="Mech Tech Engineering logo">
+      <span class="brand-word">MECH TECH<small>Engineering</small></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#strengths">Strengths</a></li>
+      <li><a href="#clients">Clients</a></li>
+      <li><a href="#founder">Founder</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-primary nav-cta">Get a Quote</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow">Mech Tech Engineering · Dadra, DNH · Est. 2021</span>
+      <h1>STRUCTURES BUILT<br>TO CARRY THE <em>LOAD</em></h1>
+      <p>Structural steel fabrication, mechanical installation, machining and gas utility systems — engineered on-site and off-site for the textile, pharmaceutical, chemical and power industries.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Request a Quote</a>
+        <a href="#services" class="btn btn-ghost">See Our Capabilities</a>
+      </div>
+    </div>
+    <div class="hero-stage">
+      <canvas id="rig"></canvas>
+      <div class="hero-stage-hint">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+        Drag to rotate · Click to weld
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack">
+    <span><b>ARC</b> WELDING</span>
+    <span><b>MIG</b> WELDING</span>
+    <span><b>TIG</b> WELDING</span>
+    <span><b>ARGON</b> WELDING</span>
+    <span><b>GAS</b> CUTTING</span>
+    <span>SHOT BLASTING &amp; PAINTING</span>
+    <span>ON-SITE &amp; OFF-SITE FABRICATION</span>
+    <span>MS · SS · ALLOY STEEL · ALUMINIUM</span>
+  </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-photo">
+      <img src="assets/img/factory-wide.jpg" alt="Mech Tech Engineering fabrication workshop with gantry cranes and processing lines">
+    </div>
+    <div class="about-text">
+      <span class="eyebrow">Who we are</span>
+      <h2 style="margin-top:14px; font-size:clamp(28px,3.2vw,40px);">A fabrication shop built<br>around the weld line</h2>
+      <p>Mech Tech Engineering builds and maintains steel structures for plants and industrial infrastructure — boiler houses, sheds, pipe racks and balance-of-plant works for the textile, pharmaceutical, décor, chemical, polymer and power industries.</p>
+      <p>We run a team of experienced structural steel and piping fabricators, supervisors and welders working in Mild Steel, Alloy Steel, Stainless Steel and Aluminium, holding to the quality requirements our clients set and the delivery dates they need — a commitment we've held since 2021.</p>
+      <div class="nameplate">
+        <span class="rivet tr"></span><span class="rivet bl"></span>
+        <div class="nameplate-item"><div class="num">2021</div><div class="label">Founded</div></div>
+        <div class="nameplate-item"><div class="num">5</div><div class="label">Weld processes</div></div>
+        <div class="nameplate-item"><div class="num">2</div><div class="label">Sites: workshop + on-site</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="section-dark">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What we do</span>
+      <h2>Five disciplines,<br>one weld line</h2>
+      <p>From structural fabrication to laboratory gas systems — select a discipline to see how it's built.</p>
+    </div>
+
+    <div class="svc-panel">
+      <div class="svc-tabs" id="svcTabs" role="tablist">
+        <button class="svc-tab active" data-target="pane-fab" role="tab"><span class="dot"></span>Fabrication Work</button>
+        <button class="svc-tab" data-target="pane-mech" role="tab"><span class="dot"></span>Mechanical Installation</button>
+        <button class="svc-tab" data-target="pane-mach" role="tab"><span class="dot"></span>Machining</button>
+        <button class="svc-tab" data-target="pane-paint" role="tab"><span class="dot"></span>Blasting &amp; Painting</button>
+        <button class="svc-tab" data-target="pane-gas" role="tab"><span class="dot"></span>Gas Piping &amp; Utilities</button>
+      </div>
+
+      <div class="svc-content">
+        <div class="svc-pane active" id="pane-fab">
+          <img src="assets/img/shed-exterior.jpg" alt="Fabricated steel shed structure erected on site">
+          <div class="svc-pane-text">
+            <span class="tag">01 — Structural Fabrication</span>
+            <h3>Heavy &amp; large steel structures</h3>
+            <p>Structural fabrication is the core of MTE's business: boiler house structures, industrial sheds and balance-of-plant works for textile, pharmaceutical, décor, chemical, polymer and power industry sites.</p>
+            <p>We work across plain mild steel, stainless steel, high-temperature grades and high-strength steels, and take on complete construction as a single unit or in parts — plus maintenance of existing fabrication already in the field.</p>
+            <ul>
+              <li>Complete structure construction — single unit or in parts</li>
+              <li>Maintenance &amp; service of existing site fabrication</li>
+              <li>Reliable on short deadlines, since 2021</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="svc-pane" id="pane-mech">
+          <img src="assets/img/gantry-workshop.jpg" alt="Gantry crane and structural steel installation inside workshop">
+          <div class="svc-pane-text">
+            <span class="tag">02 — Mechanical Fabrication &amp; Installation</span>
+            <h3>Structural steel for plants &amp; buildings</h3>
+            <p>I-beams, angles, channels, flat bars, square and rectangular tubing — fabricated and erected for plants and buildings, plus pipelines, pipe supports, steel pipe racks, platforms and access ladders at our workshop and on client sites.</p>
+            <ul>
+              <li>Custom fabrication &amp; gantry cranes</li>
+              <li>Boiler houses &amp; structural supports</li>
+              <li>Balance-of-plant structures</li>
+              <li>Large sheds, stairs, railing &amp; fencing</li>
+              <li>Fire, boiler, oil &amp; water pipelines — MS &amp; SS</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="svc-pane" id="pane-mach">
+          <img src="assets/img/machining-closeup.jpg" alt="Precision machining of a metal component">
+          <div class="svc-pane-text">
+            <span class="tag">03 — Machining</span>
+            <h3>Milling, drilling &amp; spare parts</h3>
+            <p>Milling, drilling, tapping and new spare-part manufacturing — tanks, conveyors, wheels and machinery components — carried out at our workshop in Dadra, DNH, alongside repair of existing spare parts.</p>
+            <ul>
+              <li>New spare part manufacturing</li>
+              <li>Existing spare part repair</li>
+              <li>Workshop-based precision machining</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="svc-pane" id="pane-paint">
+          <img src="assets/img/part-wheel.jpg" alt="Machined steel wheel component ready for finishing">
+          <div class="svc-pane-text">
+            <span class="tag">04 — Blasting &amp; Painting</span>
+            <h3>Shot blasting &amp; protective coating</h3>
+            <p>Shot blasting and painting of structural steel columns and supports, applying coatings suited to the environment and application to protect and finish every steel structure we deliver.</p>
+            <ul>
+              <li>Shot blasting of structural steel</li>
+              <li>Coating systems matched to application</li>
+              <li>Finish work for columns &amp; supports</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="svc-pane" id="pane-gas">
+          <img src="assets/img/gas-panel.jpg" alt="Laboratory gas distribution and control panel installation">
+          <div class="svc-pane-text">
+            <span class="tag">05 — Gas Piping &amp; Utilities</span>
+            <h3>Design, supply &amp; installation</h3>
+            <p>We supply, install and develop gas handling and control systems for high-purity flammable and non-flammable gases, serving Pharma, Chemical, Food and Pesticides laboratories.</p>
+            <ul>
+              <li>Gas distribution, purification &amp; control systems</li>
+              <li>Gas cylinder banks</li>
+              <li>High &amp; low pressure gas manifold systems</li>
+              <li>High &amp; low pressure gas regulating systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STRENGTHS ================= -->
+<section id="strengths">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Inspection checklist</span>
+      <h2>Why sites work with us</h2>
+    </div>
+    <div class="strengths-grid">
+      <div class="strength-card">
+        <div class="tick">✓</div>
+        <h4>On-site fabrication &amp; erection</h4>
+        <p>Full fabrication and erection carried out directly at the client site.</p>
+      </div>
+      <div class="strength-card">
+        <div class="tick">✓</div>
+        <h4>Off-site fabrication</h4>
+        <p>Structures built at our Dadra workshop and delivered ready to install.</p>
+      </div>
+      <div class="strength-card">
+        <div class="tick">✓</div>
+        <h4>Trained technical manpower</h4>
+        <p>Fitters, welders, supervisors and engineers experienced across materials.</p>
+      </div>
+      <div class="strength-card">
+        <div class="tick">✓</div>
+        <h4>ARC, MIG, TIG, ARGON &amp; gas cutting</h4>
+        <p>Equipped with the full range of welding and cutting processes.</p>
+      </div>
+      <div class="strength-card">
+        <div class="tick">✓</div>
+        <h4>Continuous improvement</h4>
+        <p>Processes refined through direct customer feedback on every job.</p>
+      </div>
+      <div class="strength-card">
+        <div class="tick">✓</div>
+        <h4>On-time delivery</h4>
+        <p>A record of meeting short deadlines without compromising quality, since 2021.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CLIENTS ================= -->
+<section id="clients" style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:36px;">
+      <span class="eyebrow">Clientele</span>
+      <h2 style="font-size:clamp(26px,3vw,36px);">Trusted by plants across industries</h2>
+    </div>
+    <div class="client-strip">
+      <span style="font-family:var(--mono); font-weight:600; letter-spacing:.04em; color:var(--text-mute); font-size:15px;">Audax Group</span>
+      <span style="font-family:var(--mono); font-weight:600; letter-spacing:.04em; color:var(--text-mute); font-size:15px;">U Euro</span>
+      <span style="font-family:var(--mono); font-weight:600; letter-spacing:.04em; color:var(--text-mute); font-size:15px;">Meril</span>
+      <span style="font-family:var(--mono); font-weight:600; letter-spacing:.04em; color:var(--text-mute); font-size:15px;">Gufic Biosciences</span>
+      <span style="font-family:var(--mono); font-weight:600; letter-spacing:.04em; color:var(--text-mute); font-size:15px;">Aarti Industries</span>
+      <span style="font-family:var(--mono); font-weight:600; letter-spacing:.04em; color:var(--text-mute); font-size:15px;">Dugar Polymers</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOUNDER ================= -->
+<section id="founder">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Leadership</span>
+      <h2>Founder</h2>
+    </div>
+    <div class="founder">
+      <div class="founder-photo" id="founderPhoto">
+        Add founder photo here
+        <img src="" alt="Dipak C Pathak, Founder of Mech Tech Engineering" id="founderImg">
+      </div>
+      <div class="founder-text">
+        <span class="tag">Founder</span>
+        <h3>Dipak C Pathak</h3>
+        <span class="role">Founder, Mech Tech Engineering</span>
+        <p>Dipak founded Mech Tech Engineering in 2021 in Dadra, building the company around a simple standard: structures that hold to spec and deliveries that hold to the deadline. That standard now runs through every fabrication, machining and gas-utility job MTE takes on.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<div class="cta-band">
+  <div class="wrap">
+    <h2>Have a structure to build?</h2>
+    <p>Tell us the scope — we'll quote the fabrication, machining or gas utility work.</p>
+    <div class="cta-actions">
+      <a href="mailto:dipak@mechtechengineering.co.in" class="btn btn-primary">Email Us</a>
+      <a href="tel:+919974833551" class="btn btn-ghost">Call +91 99748 33551</a>
+    </div>
+  </div>
+</div>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Contact &amp; workshop</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span class="tag">Reach us</span>
+        <h4>Phone &amp; email</h4>
+        <a href="tel:+919974833551">+91 99748 33551</a>
+        <a href="tel:+918000499347">+91 80004 99347</a>
+        <a href="mailto:dipak@mechtechengineering.co.in">dipak@mechtechengineering.co.in</a>
+        <a href="https://www.mechtechengineering.co.in" target="_blank" rel="noopener">www.mechtechengineering.co.in</a>
+      </div>
+      <div class="contact-card">
+        <span class="tag">Registered office</span>
+        <h4>Dadra, DNH &amp; DD</h4>
+        <p>Shop No. 3, Ganpati Apartment,<br>Opp. High Secondary School,<br>Demni Road, Dadra, DNH &amp; DD – 396193</p>
+      </div>
+      <div class="contact-card">
+        <span class="tag">Workshop</span>
+        <h4>Fabrication workshop</h4>
+        <p>5, Shri Ganesh Apartment,<br>Opp. Govt. High School,<br>Demni Road, Dadra, DNH &amp; DD – 396193</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <span>© <span id="year"></span> Mech Tech Engineering. All rights reserved.</span>
+    <span class="gst">GST 26CRQPP2071P1ZZ</span>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
